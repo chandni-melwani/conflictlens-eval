@@ -1,0 +1,40 @@
+======================================================================
+SPEC 12: PAIRED CHECKS ON TEST PREDICTIONS (151 ITEMS)
+======================================================================
+
+CHECK A: LLM JUDGE VS NLI-ONLY
+  System: LLM Judge (results/llm_judge_test/preds.jsonl)
+  Other:  NLI-only (results/nli_only_test/preds.jsonl)
+  Method: Paired cluster bootstrap by article (evaluate.py --compare), seed=42, n=2000
+
+--- Full Test Set (151 items: 78 positives, 73 negatives) ---
+  System (LLM Judge):  MCC = 0.4032, Balanced Accuracy = 0.7001
+  Other (NLI-only):    MCC = 0.2710, Balanced Accuracy = 0.6327
+
+  Metric               Diff (System - Other)     95% CI              
+  -----------------------------------------------------------------
+  MCC                  0.1322                    [-0.0591, 0.3235]   
+  Balanced Accuracy    0.0674                    [-0.0271, 0.1623]   
+
+--- pair_tokens <= 120 (125 items: 56 positives, 69 negatives) ---
+  System (LLM Judge):  MCC = 0.4284, Balanced Accuracy = 0.7134
+  Other (NLI-only):    MCC = 0.2982, Balanced Accuracy = 0.6464
+
+  Metric               Diff (System - Other)     95% CI              
+  -----------------------------------------------------------------
+  MCC                  0.1303                    [-0.0611, 0.3246]   
+  Balanced Accuracy    0.0670                    [-0.0287, 0.1638]   
+
+======================================================================
+CHECK B: AUROC DIFFERENCE (METADATA-ONLY CLASSIFIER VS NLI-ONLY)
+======================================================================
+Check saved test scores:
+  NLI-only:                 FOUND (results/nli_only_test/preds.jsonl)
+  Metadata-only classifier: FOUND (results/style_only_test/preds.jsonl)
+
+  Metadata-only AUROC:                  0.7073
+  NLI-only AUROC:                       0.6653
+  AUROC Difference (Style - NLI-only):  0.0421
+  95% CI (joint item bootstrap):        [-0.0905, 0.1641]
+  95% CI (cluster bootstrap):           [-0.0724, 0.1545]
+======================================================================

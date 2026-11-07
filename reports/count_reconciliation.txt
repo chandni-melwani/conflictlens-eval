@@ -1,0 +1,86 @@
+# Count Reconciliation Report
+
+## Inputs
+- gold: data/gold.jsonl (SHA-256: 9d0397db678affcf2215540c36b17121490a72c80a43de5dd1ca9c3d766eddb3)
+- gold-identical: data/gold_identical.jsonl (SHA-256: dd310c62318fe899b9fccb2e38487f63eaf825d1b427755422433015c500fcff)
+- results-dir: results
+- expected: reports/expected_counts.json
+- metrics: all metric functions (confusion, precision, recall, specificity, f1, balanced_accuracy, mcc) imported from scripts.metrics
+- always_conflict: no preds.jsonl in results; constant predictions (1) generated over gold ids of each split
+- always_compatible: no preds.jsonl in results; constant predictions (0) generated over gold ids of each split
+
+## Integrity Checks
+All preds.jsonl files read passed integrity checks (unique ids, exact gold id set match, binary pred values). Synthesized baselines are listed under Inputs.
+
+## Main Table
+System                 Split Subset    n  pos  neg   TP   FP   FN   TN    Prec     Rec    Spec      F1 Bal_Acc     MCC
+----------------------------------------------------------------------------------------------------------------------
+always_conflict        dev   full     51   26   25   26   25    0    0  0.5098  1.0000  0.0000  0.6753  0.5000  0.0000
+always_conflict        dev   tok120   43   19   24   19   24    0    0  0.4419  1.0000  0.0000  0.6129  0.5000  0.0000
+always_conflict        test  full    151   78   73   78   73    0    0  0.5166  1.0000  0.0000  0.6812  0.5000  0.0000
+always_conflict        test  tok120  125   56   69   56   69    0    0  0.4480  1.0000  0.0000  0.6188  0.5000  0.0000
+always_compatible      dev   full     51   26   25    0    0   26   25     n/a  0.0000  1.0000  0.0000  0.5000  0.0000
+always_compatible      dev   tok120   43   19   24    0    0   19   24     n/a  0.0000  1.0000  0.0000  0.5000  0.0000
+always_compatible      test  full    151   78   73    0    0   78   73     n/a  0.0000  1.0000  0.0000  0.5000  0.0000
+always_compatible      test  tok120  125   56   69    0    0   56   69     n/a  0.0000  1.0000  0.0000  0.5000  0.0000
+nli_only               dev   full     51   26   25   14   10   12   15  0.5833  0.5385  0.6000  0.5600  0.5692  0.1387
+nli_only               dev   tok120   43   19   24   11   10    8   14  0.5238  0.5789  0.5833  0.5500  0.5811  0.1612
+nli_only               test  full    151   78   73   41   19   37   54  0.6833  0.5256  0.7397  0.5942  0.6327  0.2710
+nli_only               test  tok120  125   56   69   31   18   25   51  0.6327  0.5536  0.7391  0.5905  0.6464  0.2982
+llm_judge              dev   full     51   26   25   17   14    9   11  0.5484  0.6538  0.4400  0.5965  0.5469  0.0961
+llm_judge              dev   tok120   43   19   24   13   14    6   10  0.4815  0.6842  0.4167  0.5652  0.5504  0.1036
+llm_judge              test  full    151   78   73   59   26   19   47  0.6941  0.7564  0.6438  0.7239  0.7001  0.4032
+llm_judge              test  tok120  125   56   69   45   26   11   43  0.6338  0.8036  0.6232  0.7087  0.7134  0.4284
+cl_structured_exact    dev   full     51   26   25    4    0   22   25  1.0000  0.1538  1.0000  0.2667  0.5769  0.2861
+cl_structured_exact    dev   tok120   43   19   24    3    0   16   24  1.0000  0.1579  1.0000  0.2727  0.5789  0.3078
+cl_structured_exact    test  full    151   78   73    5    0   73   73  1.0000  0.0641  1.0000  0.1205  0.5321  0.1790
+cl_structured_exact    test  tok120  125   56   69    3    0   53   69  1.0000  0.0536  1.0000  0.1017  0.5268  0.1741
+cl_hybrid_exact        dev   full     51   26   25   14   10   12   15  0.5833  0.5385  0.6000  0.5600  0.5692  0.1387
+cl_hybrid_exact        dev   tok120   43   19   24   10   10    9   14  0.5000  0.5263  0.5833  0.5128  0.5548  0.1092
+cl_hybrid_exact        test  full    151   78   73   38   19   40   54  0.6667  0.4872  0.7397  0.5630  0.6135  0.2339
+cl_hybrid_exact        test  tok120  125   56   69   28   18   28   51  0.6087  0.5000  0.7391  0.5490  0.6196  0.2466
+cl_structured_fuzzy    dev   full     51   26   25    5    0   21   25  1.0000  0.1923  1.0000  0.3226  0.5962  0.3233
+cl_structured_fuzzy    dev   tok120   43   19   24    4    0   15   24  1.0000  0.2105  1.0000  0.3478  0.6053  0.3599
+cl_structured_fuzzy    test  full    151   78   73   11    1   67   72  0.9167  0.1410  0.9863  0.2444  0.5637  0.2353
+cl_structured_fuzzy    test  tok120  125   56   69    8    1   48   68  0.8889  0.1429  0.9855  0.2462  0.5642  0.2470
+cl_structured_none     dev   full     51   26   25   22   20    4    5  0.5238  0.8462  0.2000  0.6471  0.5231  0.0605
+cl_structured_none     dev   tok120   43   19   24   15   19    4    5  0.4412  0.7895  0.2083  0.5660  0.4989 -0.0027
+cl_structured_none     test  full    151   78   73   66   55   12   18  0.5455  0.8462  0.2466  0.6633  0.5464  0.1161
+cl_structured_none     test  tok120  125   56   69   45   53   11   16  0.4592  0.8036  0.2319  0.5844  0.5177  0.0428
+
+## Identical-Set Table
+System                 Folder                                      n pred==1
+----------------------------------------------------------------------------
+nli_only               nli_only_identical                         25       0
+llm_judge              llm_judge_identical                        25       0
+cl_structured_exact    conflictlens_structured_exact_identical    25       0
+cl_hybrid_exact        conflictlens_hybrid_exact_identical        25       0
+
+## Expected-Value Check
+always_conflict        test      full   : MATCH
+nli_only               test      full   : MATCH
+llm_judge              test      full   : MATCH
+cl_structured_exact    test      full   : MATCH
+cl_hybrid_exact        test      full   : MATCH
+cl_structured_fuzzy    test      full   : MATCH
+cl_structured_none     test      full   : MATCH
+nli_only               test      tok120 : MATCH (unchecked: tp, fp, fn, tn)
+llm_judge              test      tok120 : MATCH (unchecked: tp, fp, fn, tn)
+cl_structured_exact    test      tok120 : MATCH (unchecked: tp, fp, fn, tn)
+cl_hybrid_exact        test      tok120 : MATCH (unchecked: tp, fp, fn, tn)
+cl_structured_none     test      tok120 : MATCH (unchecked: tp, fp, fn, tn)
+always_conflict        dev       full   : MATCH
+nli_only               dev       full   : MATCH
+llm_judge              dev       full   : MATCH (unchecked: tp, fp, fn, tn)
+cl_structured_exact    dev       full   : MATCH
+cl_hybrid_exact        dev       full   : MATCH
+cl_structured_fuzzy    dev       full   : MATCH
+cl_structured_none     dev       full   : MATCH
+cl_structured_exact    dev       tok120 : MATCH (unchecked: n, tp, fp, fn, tn)
+cl_structured_none     dev       tok120 : MATCH (unchecked: n, tp, fp, fn, tn)
+nli_only               identical full   : MATCH (unchecked: fp, fn, tn, mcc)
+llm_judge              identical full   : MATCH (unchecked: fp, fn, tn, mcc)
+cl_structured_exact    identical full   : MATCH (unchecked: fp, fn, tn, mcc)
+cl_hybrid_exact        identical full   : MATCH (unchecked: fp, fn, tn, mcc)
+
+RESULT: ALL MATCH

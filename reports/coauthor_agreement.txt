@@ -1,0 +1,66 @@
+======================================================================
+SPEC 21 — Co-author Sheet Agreement Report
+======================================================================
+
+gold.jsonl SHA-256 BEFORE : 9d0397db678affcf2215540c36b17121490a72c80a43de5dd1ca9c3d766eddb3
+
+1. SHEET VALIDATION
+----------------------------------------
+   Row count : 45 (expected 45) — OK
+   Valid labels: 45/45
+   No validation errors — all ids match key, all labels valid.
+
+2. CONFUSION TABLES  (rows = gold, cols = co-author)
+----------------------------------------------------------------------
+
+ALL 45 ROWS
+gold \ coauthor  COMPATIBLE  CONTRADICT      UNSURE   TOTAL
+-----------------------------------------------------------
+COMPATIBLE              24           0           1      25
+CONTRADICT               4          13           3      20
+-----------------------------------------------------------
+TOTAL                   28          13           4      45
+
+NEGATIVES ONLY (25 rows, gold=COMPATIBLE)
+gold \ coauthor  COMPATIBLE  CONTRADICT      UNSURE   TOTAL
+-----------------------------------------------------------
+COMPATIBLE              24           0           1      25
+-----------------------------------------------------------
+TOTAL                   24           0           1      25
+
+POSITIVES ONLY (20 rows, gold=CONTRADICT)
+gold \ coauthor  COMPATIBLE  CONTRADICT      UNSURE   TOTAL
+-----------------------------------------------------------
+CONTRADICT               4          13           3      20
+-----------------------------------------------------------
+TOTAL                    4          13           3      20
+
+3. AGREEMENT STATISTICS
+----------------------------------------------------------------------
+
+  (a) All three labels as given:
+      N                   : 45
+      % agreement         : 82.2%
+      Cohen's kappa       : 0.6620
+      95% bootstrap CI    : [0.4754, 0.8481]  (seed=42, n=10000)
+
+  (b) UNSURE rows dropped (4 dropped, leaving 41):
+      N                   : 41
+      % agreement         : 90.2%
+      Cohen's kappa       : 0.7919
+      95% bootstrap CI    : [0.5838, 0.9502]  (seed=42, n=10000)
+
+4. DISAGREEMENT IDs
+----------------------------------------------------------------------
+   Count: 8
+   c002  gold=COMPATIBLE  coauthor=UNSURE
+   c005  gold=CONTRADICT  coauthor=COMPATIBLE
+   c006  gold=CONTRADICT  coauthor=COMPATIBLE
+   c007  gold=CONTRADICT  coauthor=UNSURE
+   c011  gold=CONTRADICT  coauthor=UNSURE
+   c030  gold=CONTRADICT  coauthor=COMPATIBLE
+   c032  gold=CONTRADICT  coauthor=COMPATIBLE
+   c045  gold=CONTRADICT  coauthor=UNSURE
+
+gold.jsonl SHA-256 AFTER  : 9d0397db678affcf2215540c36b17121490a72c80a43de5dd1ca9c3d766eddb3
+Hash unchanged            : True

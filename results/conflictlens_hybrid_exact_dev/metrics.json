@@ -1,0 +1,115 @@
+{
+  "args": {
+    "gold": "labels.csv",
+    "preds": "results/conflictlens_hybrid_exact_dev/preds.jsonl",
+    "baseline": null,
+    "split": "dev",
+    "name": "conflictlens_hybrid_exact_dev",
+    "max_pair_tokens": null,
+    "group": null,
+    "compare": null
+  },
+  "date": "2026-11-07T15:42:14.293876",
+  "counts": {
+    "positives": 26,
+    "negatives": 25,
+    "articles": 51,
+    "dropped_tokens": 0
+  },
+  "confusion": {
+    "TP": 14,
+    "FP": 10,
+    "FN": 12,
+    "TN": 15
+  },
+  "metrics": {
+    "Precision": {
+      "value": 0.5833333333333334,
+      "ci_95": [
+        0.375,
+        0.777898550724637
+      ],
+      "wilson_lo": 0.3883433764938864,
+      "wilson_hi": 0.7553265275346177,
+      "precision_wilson_lo": 0.3883433764938864,
+      "precision_wilson_hi": 0.7553265275346177
+    },
+    "Recall": {
+      "value": 0.5384615384615384,
+      "ci_95": [
+        0.34615384615384615,
+        0.7241379310344828
+      ],
+      "wilson_lo": 0.3545763620443012,
+      "wilson_hi": 0.712444173047651,
+      "recall_wilson_lo": 0.3545763620443012,
+      "recall_wilson_hi": 0.712444173047651
+    },
+    "Specificity": {
+      "value": 0.6,
+      "ci_95": [
+        0.4,
+        0.7931034482758621
+      ],
+      "wilson_lo": 0.40739127785127344,
+      "wilson_hi": 0.7659694233580909,
+      "specificity_wilson_lo": 0.40739127785127344,
+      "specificity_wilson_hi": 0.7659694233580909
+    },
+    "F1 (conflict)": {
+      "value": 0.56,
+      "ci_95": [
+        0.3783783783783784,
+        0.7058823529411765
+      ]
+    },
+    "F1 (compatible)": {
+      "value": 0.5769230769230769,
+      "ci_95": [
+        0.4,
+        0.7307692307692307
+      ]
+    },
+    "Macro-F1": {
+      "value": 0.5684615384615385,
+      "ci_95": [
+        0.42785299806576405,
+        0.7017543859649122
+      ]
+    },
+    "Accuracy": {
+      "value": 0.5686274509803921,
+      "ci_95": [
+        0.43137254901960786,
+        0.7058823529411765
+      ]
+    },
+    "Balanced Accuracy": {
+      "value": 0.5692307692307692,
+      "ci_95": [
+        0.43152380952380953,
+        0.7049689440993789
+      ]
+    },
+    "MCC": {
+      "value": 0.1386750490563073,
+      "ci_95": [
+        -0.13696687622640769,
+        0.40867068922192534
+      ]
+    },
+    "AUROC": {
+      "value": 0.5692307692307692,
+      "ci_95": [
+        0.4114811939268461,
+        0.7258356324278437
+      ]
+    }
+  },
+  "precision_wilson_lo": 0.3883433764938864,
+  "precision_wilson_hi": 0.7553265275346177,
+  "recall_wilson_lo": 0.3545763620443012,
+  "recall_wilson_hi": 0.712444173047651,
+  "specificity_wilson_lo": 0.40739127785127344,
+  "specificity_wilson_hi": 0.7659694233580909
+}

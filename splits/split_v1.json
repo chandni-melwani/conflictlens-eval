@@ -1,0 +1,1181 @@
+{
+  "seed": 42,
+  "splits": {
+    "dev": {
+      "article_titles": [
+        "1920 Volta a Catalunya",
+        "Alonso del Castillo Maldonado",
+        "Amanieu d'Albret",
+        "Anti-Catalanism",
+        "Beat Hotel",
+        "Bloodless surgery",
+        "Bombus polaris",
+        "Bonnie Bedelia",
+        "Castle Donington",
+        "Convenience store",
+        "Ger Browne",
+        "Heinrich Marx",
+        "Ibn Arabi",
+        "Julian Lewis Jones",
+        "List of association football stadiums by country",
+        "List of most visited palaces and monuments",
+        "Mari Fitzduff",
+        "Mint stamp",
+        "Moscow Peace Treaty",
+        "Muhammad III of Alamut",
+        "October 2010 North American storm complex",
+        "Phobos (moon)",
+        "Stop Child Trafficking Now",
+        "Synthetic chord",
+        "Tauhinukorokio / Mount Pleasant"
+      ],
+      "pair_ids": [
+        2,
+        13,
+        16,
+        22,
+        37,
+        44,
+        46,
+        47,
+        61,
+        66,
+        71,
+        72,
+        75,
+        77,
+        81,
+        86,
+        88,
+        93,
+        99,
+        101,
+        102,
+        109,
+        112,
+        119,
+        120,
+        121
+      ]
+    },
+    "test": {
+      "article_titles": [
+        "14th Street bridges",
+        "1927 Volta a Catalunya",
+        "1961 All-Ireland Senior Camogie Championship final",
+        "2021 Carlow Senior Football Championship",
+        "Acne",
+        "Aedes albopictus",
+        "Alexandria",
+        "All Pakistan Federation of United Trade Unions",
+        "Angermünde",
+        "Angolan kwanza",
+        "Another Suitcase in Another Hall",
+        "Antherina",
+        "April 1555 papal conclave",
+        "Architecture of Lebanon",
+        "Argentovaria",
+        "Ayapana triplinervis",
+        "Back-to-back house",
+        "Bandra Terminus–Lucknow Weekly Superfast Express",
+        "Battle of Fort Ében-Émael",
+        "Battle of Martín García",
+        "Battle of Monterrey",
+        "Battle of Panjwaii",
+        "Blackburn Blackburn",
+        "Blasphemy law in the United States",
+        "Blaster (flamethrower)",
+        "Boeing–Saab T-7 Red Hawk",
+        "Bremen",
+        "Bribery of senior Wehrmacht officers",
+        "Building 98",
+        "Bōsōzoku",
+        "CD19",
+        "Canarium luzonicum",
+        "Carandiru massacre",
+        "Cesar Barone",
+        "Charles D'Oyly",
+        "Chartreuse (liqueur)",
+        "David Brady",
+        "Dinigeer Yilamujiang",
+        "Emperor discography",
+        "HMS Royal George (1756)",
+        "Imidazoline receptor",
+        "Institute of Psychology of the University of Paris",
+        "John Henry Seadlund",
+        "Karl Weyprecht",
+        "Kodimunai",
+        "Lake Maracaibo",
+        "List of defunct newspapers of the United States",
+        "Little America (exploration base)",
+        "Liu Zhi (ROC)",
+        "Loretto Chapel",
+        "Maria Stevens",
+        "Marina Baker",
+        "Mary Astor",
+        "Mediterranean seas",
+        "Microsoft Office 2013",
+        "Munsee language",
+        "Ndaté Yalla Mbodj",
+        "Nemzeti Bajnokság I (men's handball)",
+        "Nymphaea nouchali var. caerulea",
+        "P-700 Granit",
+        "Paul McCole",
+        "Pierre Albert-Birot",
+        "Russian Constituent Assembly",
+        "Shaikh Asiri Lahiji",
+        "Sinking of the RMS Lusitania",
+        "Sleep in animals",
+        "St Eunan's GAA",
+        "Tobolsk Viceroyalty",
+        "Torpedo",
+        "Toyota Supra",
+        "Tregaron Estate",
+        "Two penny blue",
+        "Tyler Mane",
+        "Ásatrú Alliance"
+      ],
+      "pair_ids": [
+        1,
+        3,
+        4,
+        6,
+        9,
+        10,
+        11,
+        12,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        28,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        41,
+        42,
+        43,
+        45,
+        51,
+        52,
+        55,
+        57,
+        58,
+        59,
+        60,
+        62,
+        63,
+        64,
+        65,
+        67,
+        68,
+        69,
+        74,
+        78,
+        79,
+        80,
+        82,
+        84,
+        85,
+        87,
+        89,
+        90,
+        91,
+        94,
+        95,
+        96,
+        97,
+        98,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        110,
+        111,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        129
+      ]
+    },
+    "same_passage_analysis": {
+      "article_titles": [
+        "2020 Russian constitutional referendum",
+        "A Best",
+        "Acid Cryptofiler",
+        "Alpha wave",
+        "Alpha-v beta-5",
+        "Ancient Egyptian medicine",
+        "Attempts to ban football games",
+        "Aztec mastiff bat",
+        "Batman, Turkey",
+        "Belogradchik Rocks",
+        "Bemin",
+        "Black cowboys",
+        "Brain size",
+        "Branch theory",
+        "Brandon (given name)",
+        "Brinsley",
+        "British Rail Class 153",
+        "Burning mouth syndrome",
+        "Flare gun",
+        "Government College University, Lahore",
+        "History of Bihar",
+        "Knickerbocker Ice Company",
+        "Margery de Burgh",
+        "Mitta Mitta River",
+        "Wolfoo"
+      ],
+      "pair_ids": [
+        5,
+        7,
+        8,
+        14,
+        15,
+        17,
+        27,
+        29,
+        32,
+        38,
+        39,
+        40,
+        48,
+        49,
+        50,
+        53,
+        54,
+        56,
+        70,
+        73,
+        76,
+        83,
+        92,
+        100,
+        128
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "pair_id": 1,
+      "WikipediaArticleTitle": "14th Street bridges",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 2,
+      "WikipediaArticleTitle": "1920 Volta a Catalunya",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 3,
+      "WikipediaArticleTitle": "1927 Volta a Catalunya",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 4,
+      "WikipediaArticleTitle": "1961 All-Ireland Senior Camogie Championship final",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 5,
+      "WikipediaArticleTitle": "2020 Russian constitutional referendum",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 6,
+      "WikipediaArticleTitle": "2021 Carlow Senior Football Championship",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 7,
+      "WikipediaArticleTitle": "A Best",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 8,
+      "WikipediaArticleTitle": "Acid Cryptofiler",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 9,
+      "WikipediaArticleTitle": "Acne",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 10,
+      "WikipediaArticleTitle": "Aedes albopictus",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 11,
+      "WikipediaArticleTitle": "Alexandria",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 12,
+      "WikipediaArticleTitle": "All Pakistan Federation of United Trade Unions",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 13,
+      "WikipediaArticleTitle": "Alonso del Castillo Maldonado",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 14,
+      "WikipediaArticleTitle": "Alpha wave",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 15,
+      "WikipediaArticleTitle": "Alpha-v beta-5",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 16,
+      "WikipediaArticleTitle": "Amanieu d'Albret",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 17,
+      "WikipediaArticleTitle": "Ancient Egyptian medicine",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 18,
+      "WikipediaArticleTitle": "Angermünde",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 19,
+      "WikipediaArticleTitle": "Angolan kwanza",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 20,
+      "WikipediaArticleTitle": "Another Suitcase in Another Hall",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 21,
+      "WikipediaArticleTitle": "Antherina",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 22,
+      "WikipediaArticleTitle": "Anti-Catalanism",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 23,
+      "WikipediaArticleTitle": "April 1555 papal conclave",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 24,
+      "WikipediaArticleTitle": "April 1555 papal conclave",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 25,
+      "WikipediaArticleTitle": "Architecture of Lebanon",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 26,
+      "WikipediaArticleTitle": "Argentovaria",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 27,
+      "WikipediaArticleTitle": "Attempts to ban football games",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 28,
+      "WikipediaArticleTitle": "Ayapana triplinervis",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 29,
+      "WikipediaArticleTitle": "Aztec mastiff bat",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 30,
+      "WikipediaArticleTitle": "Back-to-back house",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 31,
+      "WikipediaArticleTitle": "Bandra Terminus–Lucknow Weekly Superfast Express",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 32,
+      "WikipediaArticleTitle": "Batman, Turkey",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 33,
+      "WikipediaArticleTitle": "Battle of Fort Ében-Émael",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 34,
+      "WikipediaArticleTitle": "Battle of Martín García",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 35,
+      "WikipediaArticleTitle": "Battle of Monterrey",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 36,
+      "WikipediaArticleTitle": "Battle of Panjwaii",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 37,
+      "WikipediaArticleTitle": "Beat Hotel",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 38,
+      "WikipediaArticleTitle": "Belogradchik Rocks",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 39,
+      "WikipediaArticleTitle": "Bemin",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 40,
+      "WikipediaArticleTitle": "Black cowboys",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 41,
+      "WikipediaArticleTitle": "Blackburn Blackburn",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 42,
+      "WikipediaArticleTitle": "Blasphemy law in the United States",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 43,
+      "WikipediaArticleTitle": "Blaster (flamethrower)",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 44,
+      "WikipediaArticleTitle": "Bloodless surgery",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 45,
+      "WikipediaArticleTitle": "Boeing–Saab T-7 Red Hawk",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 46,
+      "WikipediaArticleTitle": "Bombus polaris",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 47,
+      "WikipediaArticleTitle": "Bonnie Bedelia",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 48,
+      "WikipediaArticleTitle": "Brain size",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 49,
+      "WikipediaArticleTitle": "Branch theory",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 50,
+      "WikipediaArticleTitle": "Brandon (given name)",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 51,
+      "WikipediaArticleTitle": "Bremen",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 52,
+      "WikipediaArticleTitle": "Bribery of senior Wehrmacht officers",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 53,
+      "WikipediaArticleTitle": "Brinsley",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 54,
+      "WikipediaArticleTitle": "British Rail Class 153",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 55,
+      "WikipediaArticleTitle": "Building 98",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 56,
+      "WikipediaArticleTitle": "Burning mouth syndrome",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 57,
+      "WikipediaArticleTitle": "Bōsōzoku",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 58,
+      "WikipediaArticleTitle": "CD19",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 59,
+      "WikipediaArticleTitle": "Canarium luzonicum",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 60,
+      "WikipediaArticleTitle": "Carandiru massacre",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 61,
+      "WikipediaArticleTitle": "Castle Donington",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 62,
+      "WikipediaArticleTitle": "Cesar Barone",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 63,
+      "WikipediaArticleTitle": "Charles D'Oyly",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 64,
+      "WikipediaArticleTitle": "Charles D'Oyly",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 65,
+      "WikipediaArticleTitle": "Chartreuse (liqueur)",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 66,
+      "WikipediaArticleTitle": "Convenience store",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 67,
+      "WikipediaArticleTitle": "David Brady",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 68,
+      "WikipediaArticleTitle": "Dinigeer Yilamujiang",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 69,
+      "WikipediaArticleTitle": "Emperor discography",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 70,
+      "WikipediaArticleTitle": "Flare gun",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 71,
+      "WikipediaArticleTitle": "Ger Browne",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 72,
+      "WikipediaArticleTitle": "Ger Browne",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 73,
+      "WikipediaArticleTitle": "Government College University, Lahore",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 74,
+      "WikipediaArticleTitle": "HMS Royal George (1756)",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 75,
+      "WikipediaArticleTitle": "Heinrich Marx",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 76,
+      "WikipediaArticleTitle": "History of Bihar",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 77,
+      "WikipediaArticleTitle": "Ibn Arabi",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 78,
+      "WikipediaArticleTitle": "Imidazoline receptor",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 79,
+      "WikipediaArticleTitle": "Institute of Psychology of the University of Paris",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 80,
+      "WikipediaArticleTitle": "John Henry Seadlund",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 81,
+      "WikipediaArticleTitle": "Julian Lewis Jones",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 82,
+      "WikipediaArticleTitle": "Karl Weyprecht",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 83,
+      "WikipediaArticleTitle": "Knickerbocker Ice Company",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 84,
+      "WikipediaArticleTitle": "Kodimunai",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 85,
+      "WikipediaArticleTitle": "Lake Maracaibo",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 86,
+      "WikipediaArticleTitle": "List of association football stadiums by country",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 87,
+      "WikipediaArticleTitle": "List of defunct newspapers of the United States",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 88,
+      "WikipediaArticleTitle": "List of most visited palaces and monuments",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 89,
+      "WikipediaArticleTitle": "Little America (exploration base)",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 90,
+      "WikipediaArticleTitle": "Liu Zhi (ROC)",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 91,
+      "WikipediaArticleTitle": "Loretto Chapel",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 92,
+      "WikipediaArticleTitle": "Margery de Burgh",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 93,
+      "WikipediaArticleTitle": "Mari Fitzduff",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 94,
+      "WikipediaArticleTitle": "Maria Stevens",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 95,
+      "WikipediaArticleTitle": "Marina Baker",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 96,
+      "WikipediaArticleTitle": "Mary Astor",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 97,
+      "WikipediaArticleTitle": "Mediterranean seas",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 98,
+      "WikipediaArticleTitle": "Microsoft Office 2013",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 99,
+      "WikipediaArticleTitle": "Mint stamp",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 100,
+      "WikipediaArticleTitle": "Mitta Mitta River",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 101,
+      "WikipediaArticleTitle": "Moscow Peace Treaty",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 102,
+      "WikipediaArticleTitle": "Muhammad III of Alamut",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 103,
+      "WikipediaArticleTitle": "Munsee language",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 104,
+      "WikipediaArticleTitle": "Ndaté Yalla Mbodj",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 105,
+      "WikipediaArticleTitle": "Ndaté Yalla Mbodj",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 106,
+      "WikipediaArticleTitle": "Nemzeti Bajnokság I (men's handball)",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 107,
+      "WikipediaArticleTitle": "Nymphaea nouchali var. caerulea",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 108,
+      "WikipediaArticleTitle": "Nymphaea nouchali var. caerulea",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 109,
+      "WikipediaArticleTitle": "October 2010 North American storm complex",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 110,
+      "WikipediaArticleTitle": "P-700 Granit",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 111,
+      "WikipediaArticleTitle": "Paul McCole",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 112,
+      "WikipediaArticleTitle": "Phobos (moon)",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 113,
+      "WikipediaArticleTitle": "Pierre Albert-Birot",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 114,
+      "WikipediaArticleTitle": "Russian Constituent Assembly",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 115,
+      "WikipediaArticleTitle": "Shaikh Asiri Lahiji",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 116,
+      "WikipediaArticleTitle": "Sinking of the RMS Lusitania",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 117,
+      "WikipediaArticleTitle": "Sleep in animals",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 118,
+      "WikipediaArticleTitle": "St Eunan's GAA",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 119,
+      "WikipediaArticleTitle": "Stop Child Trafficking Now",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 120,
+      "WikipediaArticleTitle": "Synthetic chord",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 121,
+      "WikipediaArticleTitle": "Tauhinukorokio / Mount Pleasant",
+      "split": "dev",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 122,
+      "WikipediaArticleTitle": "Tobolsk Viceroyalty",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 123,
+      "WikipediaArticleTitle": "Torpedo",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 124,
+      "WikipediaArticleTitle": "Toyota Supra",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 125,
+      "WikipediaArticleTitle": "Tregaron Estate",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 126,
+      "WikipediaArticleTitle": "Two penny blue",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 127,
+      "WikipediaArticleTitle": "Tyler Mane",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    },
+    {
+      "pair_id": 128,
+      "WikipediaArticleTitle": "Wolfoo",
+      "split": "same_passage_analysis",
+      "stratum": "same_passage",
+      "identical": true
+    },
+    {
+      "pair_id": 129,
+      "WikipediaArticleTitle": "Ásatrú Alliance",
+      "split": "test",
+      "stratum": "two_passage",
+      "identical": false
+    }
+  ]
+}

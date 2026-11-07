@@ -1,0 +1,228 @@
+pair_id,split,label,article
+pos_1,test,1,14th Street bridges
+pos_2,dev,1,1920 Volta a Catalunya
+pos_3,test,1,1927 Volta a Catalunya
+pos_4,test,1,1961 All-Ireland Senior Camogie Championship final
+pos_6,test,1,2021 Carlow Senior Football Championship
+pos_9,test,1,Acne
+pos_10,test,1,Aedes albopictus
+pos_11,test,1,Alexandria
+pos_12,test,1,All Pakistan Federation of United Trade Unions
+pos_13,dev,1,Alonso del Castillo Maldonado
+pos_16,dev,1,Amanieu d'Albret
+pos_18,test,1,Angermünde
+pos_19,test,1,Angolan kwanza
+pos_20,test,1,Another Suitcase in Another Hall
+pos_21,test,1,Antherina
+pos_22,dev,1,Anti-Catalanism
+pos_23,test,1,April 1555 papal conclave
+pos_24,test,1,April 1555 papal conclave
+pos_25,test,1,Architecture of Lebanon
+pos_26,test,1,Argentovaria
+pos_28,test,1,Ayapana triplinervis
+pos_30,test,1,Back-to-back house
+pos_31,test,1,Bandra Terminus–Lucknow Weekly Superfast Express
+pos_33,test,1,Battle of Fort Ében-Émael
+pos_34,test,1,Battle of Martín García
+pos_35,test,1,Battle of Monterrey
+pos_36,test,1,Battle of Panjwaii
+pos_37,dev,1,Beat Hotel
+pos_41,test,1,Blackburn Blackburn
+pos_42,test,1,Blasphemy law in the United States
+pos_43,test,1,Blaster (flamethrower)
+pos_44,dev,1,Bloodless surgery
+pos_45,test,1,Boeing–Saab T-7 Red Hawk
+pos_46,dev,1,Bombus polaris
+pos_47,dev,1,Bonnie Bedelia
+pos_51,test,1,Bremen
+pos_52,test,1,Bribery of senior Wehrmacht officers
+pos_55,test,1,Building 98
+pos_57,test,1,Bōsōzoku
+pos_58,test,1,CD19
+pos_59,test,1,Canarium luzonicum
+pos_60,test,1,Carandiru massacre
+pos_61,dev,1,Castle Donington
+pos_62,test,1,Cesar Barone
+pos_63,test,1,Charles D'Oyly
+pos_64,test,1,Charles D'Oyly
+pos_65,test,1,Chartreuse (liqueur)
+pos_66,dev,1,Convenience store
+pos_67,test,1,David Brady
+pos_68,test,1,Dinigeer Yilamujiang
+pos_69,test,1,Emperor discography
+pos_71,dev,1,Ger Browne
+pos_72,dev,1,Ger Browne
+pos_74,test,1,HMS Royal George (1756)
+pos_75,dev,1,Heinrich Marx
+pos_77,dev,1,Ibn Arabi
+pos_78,test,1,Imidazoline receptor
+pos_79,test,1,Institute of Psychology of the University of Paris
+pos_80,test,1,John Henry Seadlund
+pos_81,dev,1,Julian Lewis Jones
+pos_82,test,1,Karl Weyprecht
+pos_84,test,1,Kodimunai
+pos_85,test,1,Lake Maracaibo
+pos_86,dev,1,List of association football stadiums by country
+pos_87,test,1,List of defunct newspapers of the United States
+pos_88,dev,1,List of most visited palaces and monuments
+pos_89,test,1,Little America (exploration base)
+pos_90,test,1,Liu Zhi (ROC)
+pos_91,test,1,Loretto Chapel
+pos_93,dev,1,Mari Fitzduff
+pos_94,test,1,Maria Stevens
+pos_95,test,1,Marina Baker
+pos_96,test,1,Mary Astor
+pos_97,test,1,Mediterranean seas
+pos_98,test,1,Microsoft Office 2013
+pos_99,dev,1,Mint stamp
+pos_101,dev,1,Moscow Peace Treaty
+pos_102,dev,1,Muhammad III of Alamut
+pos_103,test,1,Munsee language
+pos_104,test,1,Ndaté Yalla Mbodj
+pos_105,test,1,Ndaté Yalla Mbodj
+pos_106,test,1,Nemzeti Bajnokság I (men's handball)
+pos_107,test,1,Nymphaea nouchali var. caerulea
+pos_108,test,1,Nymphaea nouchali var. caerulea
+pos_109,dev,1,October 2010 North American storm complex
+pos_110,test,1,P-700 Granit
+pos_111,test,1,Paul McCole
+pos_112,dev,1,Phobos (moon)
+pos_113,test,1,Pierre Albert-Birot
+pos_114,test,1,Russian Constituent Assembly
+pos_115,test,1,Shaikh Asiri Lahiji
+pos_116,test,1,Sinking of the RMS Lusitania
+pos_117,test,1,Sleep in animals
+pos_118,test,1,St Eunan's GAA
+pos_119,dev,1,Stop Child Trafficking Now
+pos_120,dev,1,Synthetic chord
+pos_121,dev,1,Tauhinukorokio / Mount Pleasant
+pos_122,test,1,Tobolsk Viceroyalty
+pos_123,test,1,Torpedo
+pos_124,test,1,Toyota Supra
+pos_125,test,1,Tregaron Estate
+pos_126,test,1,Two penny blue
+pos_127,test,1,Tyler Mane
+pos_129,test,1,Ásatrú Alliance
+neg_1,dev,0,Alonso del Castillo Maldonado
+neg_4,dev,0,Beat Hotel
+neg_6,dev,0,Bombus polaris
+neg_7,dev,0,Bonnie Bedelia
+neg_8,dev,0,Castle Donington
+neg_9,dev,0,Convenience store
+neg_11,dev,0,Heinrich Marx
+neg_16,dev,0,Mint stamp
+neg_18,dev,0,Muhammad III of Alamut
+neg_19,dev,0,October 2010 North American storm complex
+neg_20,dev,0,Phobos (moon)
+neg_22,dev,0,Synthetic chord
+neg_23,dev,0,Tauhinukorokio / Mount Pleasant
+neg_28,dev,0,Bloodless surgery
+neg_34,dev,0,Heinrich Marx
+neg_35,dev,0,Ibn Arabi
+neg_r2_1,dev,0,Alonso del Castillo Maldonado
+neg_r2_2,dev,0,Amanieu d'Albret
+neg_r2_3,dev,0,Anti-Catalanism
+neg_r2_4,dev,0,Beat Hotel
+neg_r2_5,dev,0,Bloodless surgery
+neg_r2_6,dev,0,Bombus polaris
+neg_r2_7,dev,0,Bonnie Bedelia
+neg_r2_8,dev,0,Castle Donington
+neg_r2_9,dev,0,Convenience store
+neg_38,test,0,Acne
+neg_39,test,0,Aedes albopictus
+neg_40,test,0,Alexandria
+neg_41,test,0,Angermünde
+neg_43,test,0,Another Suitcase in Another Hall
+neg_47,test,0,Argentovaria
+neg_48,test,0,Ayapana triplinervis
+neg_50,test,0,Battle of Fort Ében-Émael
+neg_52,test,0,Battle of Panjwaii
+neg_53,test,0,Blackburn Blackburn
+neg_57,test,0,Bremen
+neg_61,test,0,CD19
+neg_64,test,0,Cesar Barone
+neg_66,test,0,Chartreuse (liqueur)
+neg_70,test,0,Imidazoline receptor
+neg_71,test,0,Institute of Psychology of the University of Paris
+neg_72,test,0,John Henry Seadlund
+neg_73,test,0,Karl Weyprecht
+neg_78,test,0,Liu Zhi (ROC)
+neg_82,test,0,Mediterranean seas
+neg_86,test,0,Nemzeti Bajnokság I (men's handball)
+neg_87,test,0,Nymphaea nouchali var. caerulea
+neg_91,test,0,Shaikh Asiri Lahiji
+neg_92,test,0,Sinking of the RMS Lusitania
+neg_93,test,0,Sleep in animals
+neg_94,test,0,St Eunan's GAA
+neg_95,test,0,Tobolsk Viceroyalty
+neg_96,test,0,Torpedo
+neg_97,test,0,Toyota Supra
+neg_99,test,0,Two penny blue
+neg_102,test,0,14th Street bridges
+neg_104,test,0,Acne
+neg_105,test,0,Aedes albopictus
+neg_106,test,0,Alexandria
+neg_107,test,0,Angermünde
+neg_109,test,0,Another Suitcase in Another Hall
+neg_115,test,0,Back-to-back house
+neg_118,test,0,Battle of Panjwaii
+neg_122,test,0,Boeing–Saab T-7 Red Hawk
+neg_124,test,0,Bribery of senior Wehrmacht officers
+neg_130,test,0,Cesar Barone
+neg_131,test,0,Charles D'Oyly
+neg_135,test,0,HMS Royal George (1756)
+neg_r2_19,test,0,14th Street bridges
+neg_r2_20,test,0,2021 Carlow Senior Football Championship
+neg_r2_21,test,0,Acne
+neg_r2_23,test,0,Alexandria
+neg_r2_24,test,0,Angermünde
+neg_r2_25,test,0,Angolan kwanza
+neg_r2_26,test,0,Another Suitcase in Another Hall
+neg_r2_27,test,0,April 1555 papal conclave
+neg_r2_28,test,0,Architecture of Lebanon
+neg_r2_29,test,0,Argentovaria
+neg_r2_30,test,0,Back-to-back house
+neg_r2_31,test,0,Battle of Fort Ében-Émael
+neg_r2_32,test,0,Battle of Monterrey
+neg_r2_33,test,0,Battle of Panjwaii
+neg_r2_34,test,0,Blackburn Blackburn
+neg_r2_35,test,0,Blasphemy law in the United States
+neg_r2_36,test,0,Blaster (flamethrower)
+neg_r2_37,test,0,Boeing–Saab T-7 Red Hawk
+neg_r2_38,test,0,Bremen
+neg_r2_39,test,0,Bribery of senior Wehrmacht officers
+neg_r2_40,test,0,Building 98
+neg_r2_41,test,0,Bōsōzoku
+neg_r2_42,test,0,CD19
+neg_r2_43,test,0,Carandiru massacre
+neg_r2_44,test,0,Cesar Barone
+neg_r2_45,test,0,Charles D'Oyly
+neg_r2_46,test,0,Chartreuse (liqueur)
+neg_r2_47,test,0,Dinigeer Yilamujiang
+neg_r2_50,test,0,Institute of Psychology of the University of Paris
+neg_r2_51,test,0,John Henry Seadlund
+pos_5,identical,1,2020 Russian constitutional referendum
+pos_7,identical,1,A Best
+pos_8,identical,1,Acid Cryptofiler
+pos_14,identical,1,Alpha wave
+pos_15,identical,1,Alpha-v beta-5
+pos_17,identical,1,Ancient Egyptian medicine
+pos_27,identical,1,Attempts to ban football games
+pos_29,identical,1,Aztec mastiff bat
+pos_32,identical,1,"Batman, Turkey"
+pos_38,identical,1,Belogradchik Rocks
+pos_39,identical,1,Bemin
+pos_40,identical,1,Black cowboys
+pos_48,identical,1,Brain size
+pos_49,identical,1,Branch theory
+pos_50,identical,1,Brandon (given name)
+pos_53,identical,1,Brinsley
+pos_54,identical,1,British Rail Class 153
+pos_56,identical,1,Burning mouth syndrome
+pos_70,identical,1,Flare gun
+pos_73,identical,1,"Government College University, Lahore"
+pos_76,identical,1,History of Bihar
+pos_83,identical,1,Knickerbocker Ice Company
+pos_92,identical,1,Margery de Burgh
+pos_100,identical,1,Mitta Mitta River
+pos_128,identical,1,Wolfoo

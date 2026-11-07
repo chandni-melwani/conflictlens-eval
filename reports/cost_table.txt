@@ -1,0 +1,36 @@
+# Cost Table Report
+
+## Inputs
+- gold: data/gold.jsonl (SHA-256: 9d0397db678affcf2215540c36b17121490a72c80a43de5dd1ca9c3d766eddb3)
+- results-dir: results
+- expected: reports/expected_cost.json
+- split: test (full subset, 151 items)
+- metrics: MCC computed from results/<folder>/preds.jsonl against gold with scripts.metrics
+- always_conflict: constant predictions (1) generated over gold test ids
+
+## Integrity Checks
+All preds.jsonl and details.jsonl files read passed integrity checks (unique ids, exact gold test id set match, binary pred values). Constant baselines are listed under Inputs.
+
+## Cost Table
+System                      MCC  LLM calls per item  NLI full-passage calls  Pair comparisons (upper bound on NLI calls)  Items with at least one pair  Max pairs in one item  Extraction parse failures    Items
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+always_conflict          0.0000                   0                       0                                          n/a                           n/a                    n/a                        n/a      151
+nli_only                 0.2710                   0                     151                                          n/a                           n/a                    n/a                        n/a      151
+llm_judge                0.4032                   1                       0                                          n/a                           n/a                    n/a                        n/a      151
+cl_structured_exact      0.1790                   2                       0                                            9                             8                      2                          1      151
+cl_structured_fuzzy      0.2353                   2                       0                                           22                            15                      4                          1      151
+cl_structured_none       0.1161                   2                       0                                          801                           149                     63                          1      151
+cl_hybrid_exact          0.2339                   2                     143                                            9                             8                      2                          1      151
+
+Footnotes:
+- by design; extraction calls were served from cache in ablation runs
+- Numerical and temporal pairs are decided without NLI, so NLI pair calls are at most this number. detector_types in details.jsonl lists flagged pairs only, so the exact NLI pair count was not recorded.
+
+## Expected-Value Check
+cl_structured_exact    : MATCH
+cl_structured_fuzzy    : MATCH
+cl_structured_none     : MATCH
+cl_hybrid_exact        : MATCH
+nli_only               : MATCH
+
+RESULT: ALL MATCH

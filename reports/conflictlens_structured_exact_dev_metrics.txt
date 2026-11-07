@@ -1,0 +1,21 @@
+Arguments: {'gold': 'data/gold.jsonl', 'preds': 'results/conflictlens_structured_exact_dev/preds.jsonl', 'baseline': None, 'split': 'dev', 'name': 'conflictlens_structured_exact_dev', 'max_pair_tokens': None, 'group': None, 'compare': None}
+Date: 2026-11-05 00:07:07
+Positives: 26, Negatives: 25, Distinct articles: 25
+Items dropped by --max_pair_tokens: 0
+
+Confusion Matrix:
+  TP: 4      FP: 0     
+  FN: 22     TN: 25    
+
+Metric               Value      95% CI              
+----------------------------------------------------
+Precision            1.0000     [1.0000, 1.0000]    
+Recall               0.1538     [0.0370, 0.3077]    
+Specificity          1.0000     [1.0000, 1.0000]    
+F1 (conflict)        0.2667     [0.0714, 0.4706]    
+F1 (compatible)      0.6944     [0.6032, 0.7595]    
+Macro-F1             0.4806     [0.3457, 0.6029]    
+Accuracy             0.5686     [0.4583, 0.6600]    
+Balanced Accuracy    0.5769     [0.5185, 0.6538]    
+MCC                  0.2861     [0.1281, 0.4209]    
+AUROC                0.5769     [0.5185, 0.6538]    

@@ -1,0 +1,42 @@
+======================================================================
+STYLE CHECKS AND SURFACE ARTIFACTS REPORT
+======================================================================
+
+Split: DEV | Class: 1 (Positive (Conflict)) | Pairs: 26 | Passages: 52
+  Share starting with pronoun/demonstrative: 0.0192
+  Share containing '(':                      0.3462
+  Share containing ';':                      0.0962
+  Mean words per passage:                    36.88
+  Share ending with a period:                0.8269
+
+Split: DEV | Class: 0 (Negative (Compatible)) | Pairs: 25 | Passages: 50
+  Share starting with pronoun/demonstrative: 0.0800
+  Share containing '(':                      0.1800
+  Share containing ';':                      0.0200
+  Mean words per passage:                    26.62
+  Share ending with a period:                1.0000
+
+Split: TEST | Class: 1 (Positive (Conflict)) | Pairs: 78 | Passages: 156
+  Share starting with pronoun/demonstrative: 0.0128
+  Share containing '(':                      0.3526
+  Share containing ';':                      0.0577
+  Mean words per passage:                    39.31
+  Share ending with a period:                0.8718
+
+Split: TEST | Class: 0 (Negative (Compatible)) | Pairs: 73 | Passages: 146
+  Share starting with pronoun/demonstrative: 0.0890
+  Share containing '(':                      0.2397
+  Share containing ';':                      0.0342
+  Mean words per passage:                    25.62
+  Share ending with a period:                0.9658
+
+======================================================================
+METADATA-ONLY CLASSIFIER (LOGISTIC REGRESSION)
+======================================================================
+Features: pair_tokens, p1_starts_pronoun, p2_starts_pronoun, both_digit
+Trained on: dev split only
+NOTE: This classifier uses only metadata and uses no passage meaning.
+
+Dev AUROC (training): 0.7569
+Test AUROC:           0.7073
+======================================================================

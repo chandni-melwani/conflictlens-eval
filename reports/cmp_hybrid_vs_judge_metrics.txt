@@ -1,0 +1,27 @@
+Arguments: {'gold': 'data\\gold.jsonl', 'preds': 'results\\conflictlens_hybrid_exact_test\\preds.jsonl', 'baseline': None, 'split': 'test', 'name': 'cmp_hybrid_vs_judge', 'max_pair_tokens': None, 'group': None, 'compare': 'results\\llm_judge_test\\preds.jsonl'}
+Date: 2026-11-05 15:58:56
+Positives: 78, Negatives: 73, Distinct articles: 74
+Items dropped by --max_pair_tokens: 0
+
+Confusion Matrix:
+  TP: 38     FP: 19    
+  FN: 40     TN: 54    
+
+Metric               Value      95% CI               95% Wilson          
+------------------------------------------------------------------------
+Precision            0.6667     [0.5667, 0.7692]     [0.5372, 0.7751]    
+Recall               0.4872     [0.3733, 0.6026]     [0.3795, 0.5961]    
+Specificity          0.7397     [0.6438, 0.8308]     [0.6289, 0.8266]    
+F1 (conflict)        0.5630     [0.4580, 0.6614]                         
+F1 (compatible)      0.6467     [0.5643, 0.7168]                         
+Macro-F1             0.6048     [0.5254, 0.6800]                         
+Accuracy             0.6093     [0.5337, 0.6827]                         
+Balanced Accuracy    0.6135     [0.5407, 0.6854]                         
+MCC                  0.2339     [0.0839, 0.3804]                         
+AUROC                0.6454     [0.5643, 0.7278]                         
+
+Comparison vs results\llm_judge_test\preds.jsonl (System - Other):
+Metric               Diff       95% CI              
+----------------------------------------------------
+MCC                  -0.1693    [-0.3573, 0.0288]   
+Balanced Accuracy    -0.0867    [-0.1796, 0.0124]   

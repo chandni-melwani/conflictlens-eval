@@ -1,0 +1,28 @@
+Arguments: {'gold': 'data\\gold.jsonl', 'preds': 'results\\llm_judge_test\\preds.jsonl', 'baseline': None, 'split': 'test', 'name': 'llm_judge_test_type', 'max_pair_tokens': None, 'group': 'type_group', 'compare': None}
+Date: 2026-11-07 11:35:46
+Positives: 78, Negatives: 73, Distinct articles: 74
+Items dropped by --max_pair_tokens: 0
+
+Confusion Matrix:
+  TP: 59     FP: 26    
+  FN: 19     TN: 47    
+
+Metric               Value      95% CI               95% Wilson          
+------------------------------------------------------------------------
+Precision            0.6941     [0.6122, 0.7848]     [0.5895, 0.7819]    
+Recall               0.7564     [0.6578, 0.8571]     [0.6506, 0.8381]    
+Specificity          0.6438     [0.5263, 0.7576]     [0.5293, 0.7440]    
+F1 (conflict)        0.7239     [0.6503, 0.8000]                         
+F1 (compatible)      0.6763     [0.5812, 0.7606]                         
+Macro-F1             0.7001     [0.6267, 0.7756]                         
+Accuracy             0.7020     [0.6294, 0.7778]                         
+Balanced Accuracy    0.7001     [0.6273, 0.7745]                         
+MCC                  0.4032     [0.2570, 0.5552]                         
+
+Recall by group on positives (type_group):
+Group                Count    Recall    
+----------------------------------------
+date_time            20       0.8500    
+number               11       0.9091    
+other                36       0.6667    
+unknown              11       0.7273    

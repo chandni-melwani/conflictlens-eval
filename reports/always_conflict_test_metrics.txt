@@ -1,0 +1,20 @@
+Arguments: {'gold': 'data\\gold.jsonl', 'preds': None, 'baseline': 'always_conflict', 'split': 'test', 'name': 'always_conflict_test', 'max_pair_tokens': None, 'group': None, 'compare': None}
+Date: 2026-11-05 11:50:54
+Positives: 78, Negatives: 73, Distinct articles: 74
+Items dropped by --max_pair_tokens: 0
+
+Confusion Matrix:
+  TP: 78     FP: 73    
+  FN: 0      TN: 0     
+
+Metric               Value      95% CI               95% Wilson          
+------------------------------------------------------------------------
+Precision            0.5166     [0.4667, 0.5821]     [0.4374, 0.5949]    
+Recall               1.0000     [1.0000, 1.0000]     [0.9531, 1.0000]    
+Specificity          0.0000     [0.0000, 0.0000]     [0.0000, 0.0500]    
+F1 (conflict)        0.6812     [0.6364, 0.7358]                         
+F1 (compatible)      0.0000     [0.0000, 0.0000]                         
+Macro-F1             0.3406     [0.3182, 0.3679]                         
+Accuracy             0.5166     [0.4667, 0.5821]                         
+Balanced Accuracy    0.5000     [0.5000, 0.5000]                         
+MCC                  0.0000     [0.0000, 0.0000]                         

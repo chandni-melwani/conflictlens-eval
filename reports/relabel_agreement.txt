@@ -1,0 +1,35 @@
+======================================================================
+INTRA-ANNOTATOR RE-LABEL AGREEMENT REPORT
+======================================================================
+
+Note: This is intra-annotator agreement on COMPATIBLE-only items,
+not kappa and not inter-annotator agreement.
+
+1. SAMPLE & INPUTS
+----------------------------------------------------------------------
+Relabel source   : data\relabel_labels.jsonl
+Original source  : data\negative_labels.jsonl
+Sample size (n)  : 20
+Line count check : 20 expected, 20 observed (OK)
+ID matching      : 20/20 IDs matched to active original labels (OK)
+
+2. ORIGINAL LABEL DISTRIBUTION (IN SAMPLE)
+----------------------------------------------------------------------
+COMPATIBLE   : 20 (100.0%)
+Total        : 20
+
+3. AGREEMENT
+----------------------------------------------------------------------
+Number agreeing      : 20 / 20
+Percent agreement    : 100.0%
+Wilson 95% interval  : [0.8389, 1.0000] (83.9% - 100.0%)
+
+4. DISAGREEMENTS
+----------------------------------------------------------------------
+Count : 0
+Disagreeing IDs : None
+
+5. TIMING
+----------------------------------------------------------------------
+Median seconds spent : 14.83 s
+======================================================================

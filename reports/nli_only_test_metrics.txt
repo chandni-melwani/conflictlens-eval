@@ -1,0 +1,21 @@
+Arguments: {'gold': 'data\\gold.jsonl', 'preds': 'results\\nli_only_test\\preds.jsonl', 'baseline': None, 'split': 'test', 'name': 'nli_only_test', 'max_pair_tokens': None, 'group': None, 'compare': None}
+Date: 2026-11-05 11:50:50
+Positives: 78, Negatives: 73, Distinct articles: 74
+Items dropped by --max_pair_tokens: 0
+
+Confusion Matrix:
+  TP: 41     FP: 19    
+  FN: 37     TN: 54    
+
+Metric               Value      95% CI               95% Wilson          
+------------------------------------------------------------------------
+Precision            0.6833     [0.5915, 0.7843]     [0.5577, 0.7869]    
+Recall               0.5256     [0.4133, 0.6410]     [0.4162, 0.6326]    
+Specificity          0.7397     [0.6438, 0.8308]     [0.6289, 0.8266]    
+F1 (conflict)        0.5942     [0.5000, 0.6892]                         
+F1 (compatible)      0.6585     [0.5797, 0.7273]                         
+Macro-F1             0.6264     [0.5525, 0.6993]                         
+Accuracy             0.6291     [0.5571, 0.7014]                         
+Balanced Accuracy    0.6327     [0.5625, 0.7046]                         
+MCC                  0.2710     [0.1271, 0.4154]                         
+AUROC                0.6653     [0.5855, 0.7448]                         
