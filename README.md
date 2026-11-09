@@ -70,7 +70,7 @@ Code, labels and predictions: MIT (see LICENSE). WikiContradict is MIT licensed 
 ## Tests
 
 Run a test file with: python -m unittest tests\<file>.py
-Eleven of the fifteen test files run with the standard library and the listed requirements. test_baselines.py, test_conflictlens.py and test_nli.py need torch and transformers installed. test_style_scores.py needs data\gold.jsonl, which is not distributed because it contains Wikipedia text. These four are included for reference.
+Eleven of the fifteen test files run with the standard library and the listed requirements. test_baselines.py, test_conflictlens.py and test_nli.py need torch and transformers installed. test_style_scores.py needs data\gold.jsonl, which is not distributed because it contains Wikipedia text. These four are included for reference. The LLM judge prompt called judge_v1 in the paper is JUDGE_PROMPT_TEMPLATE in scripts/run_baselines.py, and the extraction prompt extract_v2 is PROMPT_V2 in scripts/extract.py.
 
 ## Contact
 
